@@ -1,8 +1,8 @@
 {
-  "name": "Cracked",
-  "description": "A virtual cracked screen for your FirefoxOS device. Broken glass image by Nevit Dilmen via Wikimedia Commons.",
+  "name": "Foxkeh Overlay",
+  "description": "Foxkeh will always with you!",
   "developer": {
-    "name": "David Flanagan"
+    "name": "dynamis"
   },
   "package_path": "package.zip",
   "role": "addon",
@@ -10,7 +10,7 @@
   "customizations": [{
     "filter": "system.gaiamobile.org",
     "css": [],
-    "scripts": ["cracked.js"]
+    "scripts": ["overlay.js"]
   }],
   "icons": {
     "128": "/style/icons/128.png"
