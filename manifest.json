@@ -1,0 +1,18 @@
+{
+  "name": "Foxkeh Overlay",
+  "description": "Foxkeh will always with you!",
+  "manifest_version": 2,
+  "version": "1.0",
+  "author": "dynamis",
+  "content_scripts": [{
+    "matches": [
+      "app://system.gaiamobile.org/index.html"
+    ],
+    "js": [
+      "overlay.js"
+    ]
+  }],
+  "icons": {
+        "128": "style/icons/128.png"
+	}
+}
