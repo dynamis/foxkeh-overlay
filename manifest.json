@@ -1,18 +1,19 @@
 {
-  "name": "Foxkeh Overlay",
-  "description": "Foxkeh will always with you!",
-  "manifest_version": 2,
-  "version": "1.0",
-  "author": "dynamis",
-  "content_scripts": [{
-    "matches": [
-      "app://system.gaiamobile.org/index.html"
+    "manifest_version": 1,
+    "name": "Foxkeh Overlay",
+    "description": "Foxkeh will always with you!",
+    "version": "1.0",
+    "author": "dynamis",
+    "content_scripts": [{
+      "matches": ["app://system.gaiamobile.org/index.html"],
+      "css": ["css/style.css"],
+      "js": ["js/index.js"]
+    }],
+    "web_accessible_resources": [
+      "images/*.png",
+      "images/*.jpg"
     ],
-    "js": [
-      "overlay.js"
-    ]
-  }],
-  "icons": {
-        "128": "style/icons/128.png"
-	}
+    "icons": {
+      "128": "icons/128.png"
+    }
 }

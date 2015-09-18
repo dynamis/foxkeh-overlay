@@ -1,0 +1,9 @@
+{
+  "name" : "Foxkeh Overlay",
+  "description": "Foxkeh will always with you!",
+  "developer": { "name": "dynamis" },
+  "package_path": "extension.zip",
+  "icons": {
+    "128": "icons/128.png"
+  }
+}
